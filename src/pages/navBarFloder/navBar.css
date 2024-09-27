@@ -1,0 +1,407 @@
+body {
+        margin: 0;
+        padding: 0;
+}
+
+.fasbars {
+        color: white;
+        cursor: pointer;
+        padding: 5px;
+}
+
+.Friends-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.nav-Container {
+        display: flex;
+        position: sticky;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: rgb(23 22 22);
+        width: 100%;
+        height: 50px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 12);
+        border-radius: 8px;
+        margin: 0%;
+        top: 0%;
+}
+
+/* modal.css */
+
+.user-details-modal {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        width: 400px;
+        max-width: 90%;
+        max-height: 90%;
+        overflow: auto;
+}
+
+.modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+}
+
+.modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.close-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.5rem;
+        color: #333;
+}
+
+.usernamePara {
+        width: 500px;
+}
+
+.modal-body {
+        margin-top: 20px;
+        width: 300px;
+
+}
+
+.delete-account-button {
+        background-color: #dc3545;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.delete-account-button:hover {
+        background-color: #c82333;
+}
+
+.nav-left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+}
+
+#main-image {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+
+}
+
+
+.nav-Container h1 {
+        margin: 0;
+        color: #333;
+        /* Example text color for the heading */
+        font-size: 1.8rem;
+        /* Example font size for the heading */
+        text-transform: uppercase;
+        /* Example text transformation */
+}
+
+#appTitle {
+        font-size: 18px;
+        color: rgb(254, 254, 254);
+        font-family: 'math';
+}
+
+.linksSignin-signup {
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        /* Remove underline */
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 3px 5px;
+        /* Add padding for better spacing */
+        border: 1px solid transparent;
+        /* Add border for better distinction */
+        border-radius: 4px;
+        /* Add border radius for rounded corners */
+
+}
+
+.linksSignin-signup:hover {
+        color: rgb(114, 113, 113);
+        /* Change text color on hover */
+        text-decoration: none;
+}
+
+.sidenavbar {
+        background-color: black;
+        width: 270px;
+        height: 700px;
+        border-radius: 5px;
+}
+
+.model {
+        width: 270px;
+        position: relative;
+        top: 0px;
+        margin-top: 0px;
+        height: 700px;
+        padding: 3px;
+}
+
+.accountdeletion-modal {
+
+        position: absolute;
+        top: 10px;
+        left: 280px;
+        width: 500px;
+        height: 500px;
+        background-color: rgb(13, 13, 13);
+        border-radius: 10px;
+}
+
+.accountdeletion-button {
+        width: 200px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(8, 8, 8);
+        color: #fa061e;
+        font-size: 13px;
+}
+
+.accountdeletion-button:hover {
+        width: 200px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(6, 5, 5);
+        color: #f7031c;
+}
+
+.close {
+        display: block;
+        position: relative;
+        top: 0px;
+        color: white;
+        padding-left: 10px;
+
+}
+
+.deleteProfileDiv {
+        position: relative;
+        top: 100px;
+}
+
+#userImage {
+        position: relative;
+        left: 20px;
+        top: 20px;
+        background-color: white;
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+
+}
+
+.accountdeletion-p {
+        font-size: 13px;
+}
+
+#MusicBox {
+        width: auto;
+        margin: 0px;
+        padding: 10px 0px 20px 0px;
+        margin-left: 20px;
+}
+
+.sidenavUl {
+        margin-left: -10px;
+}
+
+.sidenavUl li {
+        padding: 30px 0px 0px 0px;
+        text-decoration: none;
+
+}
+
+.sidenavUl li a {
+        text-decoration: none;
+}
+
+.sidenavUl li a:hover {
+        text-decoration: none;
+        font-size: 12.1px;
+}
+
+.profileImage {
+        box-sizing: border-box;
+}
+
+#aboutTheApp a {
+        text-decoration: none;
+}
+
+#AboutAs a {
+        text-decoration: none;
+}
+
+.email {
+        margin: 0px;
+        margin-left: 5px;
+        font-size: 13px;
+}
+
+.faEdit {
+        cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+        .linksSignin-signup {
+                font-size: 24px;
+                color: rgb(255, 255, 255);
+                text-decoration: none;
+                /* Remove underline */
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 3px 5px;
+                /* Add padding for better spacing */
+                border: 1px solid transparent;
+                /* Add border for better distinction */
+                border-radius: 4px;
+                /* Add border radius for rounded corners */
+
+        }
+
+        .sidenavbar {
+                background-color: black;
+                width: 670px;
+                height: 900vh;
+                border-radius: 5px;
+        }
+
+        .linksSignin-signup:hover {
+                color: rgb(114, 113, 113);
+                /* Change text color on hover */
+                text-decoration: none;
+        }
+
+        #appTitle {
+                font-size: 22px;
+                color: rgb(254, 254, 254);
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #MusicBox {
+                width: auto;
+                margin: 0px;
+                padding: 10px;
+                margin-left: 40px;
+                font-size: 50px;
+        }
+
+        .sidenavUl li {
+                padding: 20px 0px 60px 0px;
+                text-decoration: none;
+
+        }
+
+        .sidenavUl li a {
+                text-decoration: none;
+                font-size: 27px;
+        }
+
+        .sidenavUl li a:hover {
+                text-decoration: none;
+                font-size: 12.1px;
+                font-size: 27px;
+        }
+
+        .profileImage {
+                box-sizing: border-box;
+                height: 140px;
+                gap: 10px;
+        }
+
+        #aboutTheApp a {
+                text-decoration: none;
+                font-size: 40px;
+                margin-left: 20px;
+        }
+
+        #AboutAs a {
+                text-decoration: none;
+                font-size: 40px;
+                margin-left: 20px;
+        }
+
+        .icon {
+                font-size: 30px;
+        }
+
+        .email {
+                font-size: 40px;
+        }
+
+        .faEdit {
+                font-size: 40px;
+        }
+
+        #profilepic {
+
+                width: 90px;
+                height: 90px;
+        }
+
+        #logout {
+                font-size: 40px;
+        }
+
+        .accountdeletion-modal {
+
+                position: absolute;
+                top: 10px;
+                left: 180px;
+                width: 600px;
+                height: 700px;
+                background-color: rgb(13, 13, 13);
+                border-radius: 10px;
+        }
+
+        .accountdeletion-p {
+                font-size: 23px;
+                width: 500px;
+                font-family: monospace;
+        }
+
+        .usernamePara {
+                width: 500px;
+                font-family: monospace;
+
+        }
+
+        .accountdeletion-button {
+                width: 400px;
+                height: auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgb(8, 8, 8);
+                color: #fa061e;
+                font-size: 30px;
+        }
+}

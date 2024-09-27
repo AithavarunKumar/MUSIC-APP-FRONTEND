@@ -1,0 +1,264 @@
+.Signup-title {
+    color: rgb(253, 254, 254);
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+body{
+   background-color: #02081c;
+}
+.signUp-container {
+    position: relative;
+    /* left: 240px;
+    width: 700px; */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.signUp-container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../AssetFloder/SignUpImage2.jpeg'); /* Update this path */
+    background-size: cover;
+    background-position: center;
+}
+#SignUpLink{
+    color: rgb(3, 252, 3);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#SignUpLink :hover{
+    color: rgb(3, 252, 3);
+    text-decoration: none;
+    
+}
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input {
+    border: solid 1.5px white;
+    border-radius: 7px;
+    background: none;
+    padding: 18px;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+}
+
+.input::placeholder {
+    color: transparent;
+}
+
+.label {
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    color: rgb(250, 248, 248);
+    pointer-events: none;
+    transform-origin: left top;
+    transform: translateY(0);
+    font-size: 18px;
+    transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    padding: 0 5px; /* Add padding to prevent text from touching the border */
+}
+
+.input:focus,
+.input:not(:placeholder-shown) {
+    outline: none;
+    border: 1.5px solid #fff;
+}
+
+.input:focus + .label,
+.input:not(:placeholder-shown) + .label {
+    top: -10px;
+    left: 15px;
+    transform: scale(0.75);
+    background-color: black;
+    color: white;
+    padding: 0 5px;
+}
+
+.main-div {
+    position: relative;
+    left: auto;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.signupDiv {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1f1f1f;
+    /* Darker background */
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    /* White shadow effect */
+    opacity: 0.8;
+}
+
+.error-message {
+    color: #ff1200;
+    font-size: 10px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: math;
+    
+}
+#SingUPLink{
+    color: rgb(0, 254, 8);
+    font-size: 13px;
+}
+fieldset {
+    border: none;
+    /* Remove fieldset border */
+    margin: 0;
+    padding: 0;
+}
+
+legend {
+    color: white;
+    font-size: 20px;
+    /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* Space below legend */
+    opacity: 1;
+}
+
+table {
+    width: 100%;
+    /* Full width of parent container */
+    margin-bottom: 15px;
+    /* Space below table */
+}
+
+table,
+tr,
+td {
+    color: white;
+    border-collapse: collapse;
+    /* Collapse table borders */
+    padding: 0%;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 24px);
+    /* Take up full width minus padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ffffff70;
+    border-radius: 5px;
+    background-color: #050505;
+    /* Darker input background */
+    color: white;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    color: rgb(5, 4, 4);
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #be78ed;
+    transition: background-color 0.3s ease;
+}
+
+a {
+    color: #be78ed;
+    /* Green link color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.errorSignup {
+    color: red;
+    font-size: 10px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: math;
+}
+
+label {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#alreadyHaveAccount {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+}
+.signupDiv h1 {
+    text-align: center;
+}
+
+.signupDiv table {
+    width: 100%;
+}
+
+
+.signupDiv button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.signupDiv{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 10px rgb(255 255 255 / 58%);
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 10px;
+}
+
+/* Media query for screens smaller than 480px (typical smartphones) */
+@media (max-width: 479px) {
+    .signupDiv {
+        padding: 10px;
+        /* Decrease padding for smaller screens */
+    }
+
+    .signupDiv h1 {
+        font-size: 20px;
+        /* Further decrease font size for heading */
+    }
+
+    .signupDiv button {
+        font-size: 12px;
+        /* Further decrease font size for button */
+    }
+
+    .Signup-title {
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        font-family: monospace;
+        margin-left: 40px;
+    }
+
+}

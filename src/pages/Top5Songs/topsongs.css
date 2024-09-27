@@ -1,0 +1,34 @@
+#top-songs-main {
+        margin-left: 5px;
+        text-align: center;
+
+}
+
+.mostPopularContainer {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        border-radius: 5%;
+        margin: 10px;
+}
+
+.artistTitle {
+        font-size: 23px;
+        color: white;
+        font-family: monospace;
+        margin: 0px;
+        margin-left: 20px;
+}
+
+#mostPopularcontent {
+        display: block;
+        justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+        #top-songs-main {
+                justify-content: space-around;
+
+        }
+}

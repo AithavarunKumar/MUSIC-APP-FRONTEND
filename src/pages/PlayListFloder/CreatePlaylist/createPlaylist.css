@@ -1,0 +1,99 @@
+.Playlist-container{
+        width: 900px;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        padding: 30px;
+        flex-direction: column;
+        margin-left: 100px;
+}
+#createNewPlaylistButton{
+        width: 50px;
+        height: 50px;
+        background-color: #014062;
+        color: white;
+        border: none;
+        border-radius: 100%;
+        cursor: pointer;
+        font-size: 20px;
+}
+#createNewPlaylistButton:hover{
+        width: 50px;
+        height: 50px;
+        background-color: #014062;
+        color: white;
+        border: none;
+        border-radius: 100%;
+        cursor: pointer;
+        font-size: 26px;
+        
+}
+#NewPlaylist{
+        margin-left: 20px;
+        margin-top: 0px;
+}
+/* .modal{
+        display: block;
+        width: 300px;
+        height: 280px;
+        background-color: rgb(249, 249, 249);
+        margin-left: 40%;
+        border-radius: 10px;
+        box-shadow:  0 0 10px 0 rgba(0, 0, 0, 0.1);
+} */
+.close{
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 3px;
+}
+#inputPlaylistName{
+        width: 250px;
+        border-radius: 10px;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid black;
+        margin-left: 15px;
+       
+}
+#createPlaylistButton{
+        width: 150px;
+        height: 50px;
+        background-color: #014062;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 80px;
+}
+.addedPlaylists li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        margin-top: 10px;
+        font-size: 20px;
+        background-color: #010f17;
+        color: white;
+        padding: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+
+
+}
+.ellipsis{
+        font-size: 15px;
+        cursor: pointer;
+        
+}
+.modiifyButtons{
+        width: 100px;
+        height: 20px;
+}
+.context-menu{
+        display: flex;
+        width: 200px;
+        background-color: red;
+}

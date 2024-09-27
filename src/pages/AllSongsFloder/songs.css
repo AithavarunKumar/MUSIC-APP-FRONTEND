@@ -1,0 +1,356 @@
+body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+}
+
+.topsongspara {
+        margin: 5px;
+        font-family: monospace;
+        font-size: 17px;
+        margin-left: 20px;
+        color: rgb(166, 164, 164);
+}
+
+table.styled-table {
+        color: white;
+        font-size: 11.5px;
+        font-family: ui-monospace;
+}
+
+.styled-table .label {
+        color: #fbf9f9;
+}
+
+p {
+        font-size: 20px;
+        color: white;
+        letter-spacing: 1px;
+        margin-left: 20px;
+}
+
+#songTitlePara {
+        font-size: 20px;
+        color: white;
+        letter-spacing: 1px;
+        margin: 0px;
+}
+
+h1 {
+        font-size: 20px;
+        color: white;
+}
+
+a {
+        text-decoration: none;
+        font-size: 12px;
+        color: white;
+}
+
+
+
+section {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        background-color: black;
+}
+
+hr {
+        border: 1px solid #292828;
+        width: 100%;
+}
+
+.songs {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        margin: 10px;
+        border-radius: 10px;
+}
+
+.songs img {
+        width: 100%;
+        border-radius: 10px;
+}
+
+
+#image {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: pink;
+}
+
+.profileImage {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        background-color: #11374b;
+        border-radius: 10px;
+        color: white;
+        margin: 20px;
+        gap: 5px;
+}
+
+#profilepic {
+        width: 90px;
+        height: 55px;
+        border-radius: 50%;
+        background-color: white;
+}
+
+.topgenres {
+        display: flex;
+        margin: 10px;
+        border-radius: 5px;
+        gap: 10px;
+        margin-left: 50px;
+}
+
+
+.button {
+        background-color: #dc0303;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+}
+
+#logoutdiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+}
+
+#logout {
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+        text-decoration: none;
+}
+
+#imagediv {
+        width: 100px;
+        height: 100px;
+
+}
+
+input {
+        padding: 10px;
+        border-radius: 60px 0px 0px 60px;
+        width: 500px;
+        height: 30px;
+
+}
+
+#topsongimage {
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+.pagination {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-top: 35px;
+        justify-content: center;
+        color: white;
+
+}
+
+.pagination li {
+        margin: 0 5px;
+}
+
+footer {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #08181f;
+        color: white;
+        height: 100px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top: 20px;
+        bottom: 0;
+}
+
+#footerpara {
+        font-family: 'Times New Roman', Times, serif;
+}
+
+#allSongs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+}
+
+.songs-container {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 20px;
+}
+
+.navicon {
+        color: white;
+        cursor: pointer;
+}
+
+.topSongsContainer {
+        width: 100%;
+}
+
+#song-image {
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-top: 10px;
+}
+
+
+#aboutTheApp {
+        margin-left: 26px;
+}
+
+#aboutTheApp a {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+}
+
+#AboutAs a {
+        margin-left: 6px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+}
+
+#MusicBox {
+        margin-left: 12px;
+}
+
+.email {
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+}
+
+.pagination a {
+        cursor: pointer;
+        text-decoration: none;
+}
+
+#mainDiv-TopGenres {
+        width: 100%;
+        background-color: #111112;
+}
+
+
+
+
+.error {
+        color: red;
+        font-size: 10px;
+        margin-right: 250px;
+}
+
+.song-list {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 0px;
+        margin-top: 20px;
+}
+
+#imagediv {
+        position: relative;
+        display: inline-block;
+}
+
+.playIcon {
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        font-size: 60px;
+        color: rgb(194, 190, 190);
+        opacity: 0;
+        transition: opacity 0.3s;
+}
+
+#imagediv:hover .playIcon {
+        opacity: 1;
+}
+
+.song-content {
+        width: 190px;
+        height: 240px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.song-content:hover {
+        width: 190px;
+        height: 240px;
+        justify-content: center;
+        border-radius: 10px;
+        background-color: #4f4f4f;
+        transition: 0.4s;
+}
+
+@media only screen and (max-width: 768px) {
+
+        .error {
+                font-size: 13px;
+        }
+
+        #song-image {
+                width: 170px;
+                height: 170px;
+                background-size: 100%;
+                background-size: cover;
+                border-radius: 10px;
+        }
+
+        .styled-table {
+                margin-top: 20px;
+        }
+
+        .songs-container {
+                display: block;
+                margin-right: 20px
+        }
+
+        #mainDiv-TopGenres {
+                display: block;
+                justify-content: center;
+                gap: 10px;
+                margin-right: 170px;
+        }
+
+        p {
+                font-size: 29px;
+                color: white;
+                font-family: fantasy;
+                letter-spacing: 1px;
+                margin-left: 20px;
+        }
+
+        footer {
+                display: flex;
+                width: 100%;
+        }
+
+}
